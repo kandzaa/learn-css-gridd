@@ -1,0 +1,99 @@
+img{
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(9, 10vw);
+    grid-template-rows: repeat(4, 15vw);
+    gap: 7px;
+
+}
+.gulbis{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3; 
+    /* background-color: grey; */
+}
+.zilonis{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+/* background-color: lightgrey; */
+}
+.tiger{
+    grid-column-start: 5;
+    grid-column-end: 5; 
+    grid-row-start: 1;
+    grid-row-end: 2;
+/* background-color: orange; */
+}
+
+.lion{
+/* background-color: brown; */
+grid-column-start: 6;
+grid-column-end: 8;
+grid-row-start: 1;
+grid-row-end: 2;
+}
+.wolf{
+/* background-color: black; */
+grid-column-start: 8;
+grid-column-end: 10;
+grid-row-start: 1;
+grid-row-end: 3;
+}
+.pig{
+    /* background-color:black; */
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.bird{
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 5;
+/* background-color: lightblue; */
+}
+.gorilla{
+    grid-column-start: 7;
+    grid-column-end: 8;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    /* background-color: greenyellow; */
+}
+.deer{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
+
+    /* background-color: maroon; */
+}
+.bear{
+    /* background-color: mediumorchid; */
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+.giraffe{
+    grid-column-start: 9;
+    grid-column-end: 10;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    /* background-color: mediumturquoise; */
+}
+.smiley{
+    grid-column-start: 7;
+    grid-column-end: 10;
+    grid-row-start: 4;
+    grid-row-end: 5;
+/* background-color: navy; */
+}
