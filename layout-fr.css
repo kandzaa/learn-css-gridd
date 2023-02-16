@@ -1,0 +1,18 @@
+.container{
+    display: grid;
+    border: 0;
+    margin: 0;
+    color: white;
+    grid-template-columns: 1fr 4fr 2fr;
+    grid-template-rows: 100vh;
+  
+}
+.red{
+background-color: red;
+}
+.blue{
+background-color: blue;
+}
+.green{
+background-color: green;
+}
